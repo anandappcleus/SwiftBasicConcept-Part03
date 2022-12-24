@@ -4,7 +4,7 @@
 
 # Follow me on https://www.youtube.com/@bikkypanday8999
 
- In this tutorial have explain basic concept of swift with example.
+ In this tutorial have covered basic concept of swift with example.
  
  Topics covered in this tutorial below
  
