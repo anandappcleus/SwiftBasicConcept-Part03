@@ -1,9 +1,7 @@
-/*=====================================CodeWithAnand====================================*/
+/*=====================================CodeWithAnand10====================================*/
 
 import UIKit
 
-print("Do Like and Subscribe my channel CodeWithAnand or @bikkypanday8999")
-let MyYoutubeChannel = URL(string: "https://www.youtube.com/@bikkypanday8999")
 
 let TodayTopics = ["Let","Var","MultiLineString","Optional","array","dictonary","Default","SWitch","Function","Touple","Closures"]
 
@@ -201,13 +199,7 @@ print(sortedNumbers)
 
 //MARK: -  Part 3 - 2nd verion
 
-/*=================================================CodeWithAnand=========================================================*/
-
-print("Do Like and Subscribe my channel CodeWithAnand or @bikkypanday8999")
-
-let MyYoutubeChannel_ = URL(string: "https://www.youtube.com/@bikkypanday8999")
-
-
+/*=================================================CodeWithAnand10=========================================================*/
 
 
 //MARK: - Objects and Classes
@@ -371,11 +363,7 @@ print(heartsDescription)
 
 //MARK: -  Part 3 - 3nd verion
 
-/*=================================================CodeWithAnand=========================================================*/
-
-print("Do Like and Subscribe my channel CodeWithAnand or @bikkypanday8999")
-
-let MyYoutubeChannel__ = URL(string: "https://www.youtube.com/@bikkypanday8999")
+/*=================================================CodeWithAnand10=========================================================*/
 
 //MARK: - Enum with Associated type
 
