@@ -3,6 +3,7 @@
     <pages>
         <page name='ExceptionHandling'/>
         <page name='Loop'/>
+        <page name='ControlTransferStatement'/>
         <page name='Part03'/>
     </pages>
 </playground>
