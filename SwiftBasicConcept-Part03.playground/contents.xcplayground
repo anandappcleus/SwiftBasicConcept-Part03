@@ -5,5 +5,7 @@
         <page name='Loop'/>
         <page name='ControlTransferStatement'/>
         <page name='Part03'/>
+        <page name='Initializer'/>
+        <page name='SwiftTips-makeIterator'/>
     </pages>
 </playground>
