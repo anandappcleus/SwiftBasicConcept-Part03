@@ -6,6 +6,8 @@
         <page name='ControlTransferStatement'/>
         <page name='Part03'/>
         <page name='Initializer'/>
+        <page name='Generics'/>
         <page name='SwiftTips-makeIterator'/>
+        <page name='Deinitialization'/>
     </pages>
 </playground>

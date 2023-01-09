@@ -45,15 +45,6 @@ print("cal area=== \(wall2.calArea())")
 
 
 
-
-
-
-
-
-
-
-
-
 //MARK: - Swift convenience Initializer
 
 
@@ -69,23 +60,54 @@ print("cal area=== \(wall2.calArea())")
  
  */
 
-class University {
-  
-  var name : String
-  var rank : String
-  
-  init(name : String, rank: String) {
-    self.name = name
-    self.rank = rank
-  }
 
-  // define convenience init
-  convenience init() {
-    self.init(name: "Kathmandu University", rank: "1st")
-  }
-  
+
+
+
+//MARK: - Failable Initializer
+
+
+/*
+ In some cases initializers might or might not work, this is called a failable initializer.
+
+ We write a failable initializer by placing a question mark (?) after the init keyword and return nil if something goes wrong.
+ */
+
+class File {
+    var folder: String
+    
+    init?(folder: String) {
+        if folder.isEmpty {
+            print("folder empty output-1")
+            return nil
+        }
+        self.folder = folder
+    }
 }
 
-var university1 = University()
-print(university1.name)
-print("Rank:", university1.rank)
+let obj1 = File(folder: "")
+
+if obj1 != nil {
+    print("folder exist")
+} else {
+    print("folder not exist output-2")
+}
+
+
+
+
+
+//MARK: - Memberwise Initializer for structs
+
+
+/*
+ In Swift, we are not required to create an initializer while working with structs. Swift automatically generates a memberwise for us
+ */
+
+struct Member {
+    let name: String
+    let id: Int
+}
+
+let mem = Member(name: "cnjdnjc", id: 19)
+print(mem.name,mem.id)
