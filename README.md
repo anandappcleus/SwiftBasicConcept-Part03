@@ -1,4 +1,4 @@
-# Swift Tutorial for Absoulte beginners in Hindi
+# Swift Tutorial for Absolute beginners in Hindi
 
 # Do Like and Subscribe my channel CodeWithAnand10
 
