@@ -10,5 +10,7 @@
         <page name='Generics'/>
         <page name='SwiftTips-makeIterator'/>
         <page name='Deinitialization'/>
+        <page name='SwiftClosure'/>
+        <page name='In-Out Parameters '/>
     </pages>
 </playground>
